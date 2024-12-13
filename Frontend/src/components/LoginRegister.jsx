@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import NavBar from './NavBar';
+import NavBar from './Navbar.jsx';
 import '../styles/login-register.css';
 
 const api = axios.create({
