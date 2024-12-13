@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "start": "react-scripts start --host 0.0.0.0",
+    "postinstall": "ls -la node_modules/.bin",
+    "prebuild": "chmod +x node_modules/.bin/vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
