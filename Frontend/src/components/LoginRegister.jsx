@@ -4,7 +4,7 @@ import NavBar from './Navbar.jsx';
 import '../styles/login-register.css';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://events-registration-system.onrender.com/api',
 });
 
 const LoginRegister = () => {
